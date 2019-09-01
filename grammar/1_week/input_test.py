@@ -81,3 +81,45 @@ fruits_str = '거봉,수박,사과,배,딸기'
 fruits_arr = fruits_str.split(',')
 
 print(fruits_arr)  # ['거봉', '수박', '사과', '배', '딸기']
+
+
+my_list = []
+
+print(type(my_list))
+
+
+my_list = [1, 2, 3]
+
+print(my_list)
+
+
+my_list.append(5)
+
+print(my_list)
+
+animals = []
+
+animals.append('코알라')
+animals.append('하이에나')
+animals.append('바다소')
+animals.append('땅다람쥐')
+
+print(animals, end="\n")
+
+print(len(animals))
+
+my_tuple = 1, 2, 3
+
+print(my_tuple)
+
+
+num1, num2, num3 = my_tuple
+
+print(num1)
+print(num2)
+print(num3)
+
+num1, num2 = num2, num1
+
+print(num1)
+print(num2)
