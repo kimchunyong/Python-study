@@ -123,3 +123,65 @@ num1, num2 = num2, num1
 
 print(num1)
 print(num2)
+
+
+for a in [1, 2, 3, 4]:
+    print(a)
+    print(a + 2)
+
+
+for test in range(10):
+    print(test)
+
+for j in range(2, 10):
+    for i in range(1, 10):
+        print('{}x{}={}'.format(j, i, j*i))
+
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+odd_numbers = []
+
+for num in numbers:
+    if num % 2 == 1:
+        odd_numbers.append(num)
+
+print(odd_numbers)
+
+
+print([number for number in numbers if number % 2 == 1])
+
+
+member = ['가', '나', '다', '라', '마', '바', '사']
+
+print(member)
+
+print('가' in member)
+
+my_dict = {'학생1': '호박', '학생2': 'kim', '학생3': 'lee'}
+
+for std in my_dict.values():
+    print(std)
+
+
+for key in my_dict.keys():
+    print(key)
+
+
+for key, val in my_dict.items():
+    print(key, val)
+
+
+def add(num1, num2):
+    return num1 + num2
+
+
+print(add(1, 2))
+
+
+students = ['망고', '배', '사과', '딸기', '포도']
+
+
+print(random.choice(students))
+
+print(random.sample(students, 2))
